@@ -16,14 +16,12 @@ To run this application, you need to have Node.js and MongoDB installed on your 
 - Clone this repository to your local machine.
 - Navigate to the project folder and run `npm install` to install the dependencies.
 - Create a `.env` file in the root directory and add the following variables:
-
+PORT=3000
+MONGO_URI=mongodb://localhost:27017/pandemic-notifier
+PUSH_KEY=your-push-notification-key
 - Run `npm start` to start the server.
 - You can test the API endpoints using Postman or any other tool.
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-PORT=3000
-MONGO_URI=mongodb://localhost:27017/pandemic-notifier
-PUSH_KEY=your-push-notification-key
